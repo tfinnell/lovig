@@ -1,10 +1,11 @@
 			* { margin:0; padding:0; color: black;}
-			html, body { height: 100%; width: 100%; position: relative; }
+			html { height: 100%; }
+			body { height: 100%; }
 			a {text-decoration: none; cursor: pointer;}
 			ul, li {list-style: none;}
 			
 			.wrapper {width:100%;}
-			#thebgoverlay { height: 100% auto; overflow: hidden;}
+			#thebgoverlay { height: 100%; min-height: 100%;}
 			.wrapped {margin-left:auto; margin-right:auto; width: 960px}
 			#header {height: 50px; padding-top:4px;}
 			
@@ -15,8 +16,8 @@
 			#nav li a:hover { color: #222;}
 			#nav ul { margin: 0.3em;}
 			#nav > ul > li { display:inline-block;}
-			#footer-wrapper { position: fixed; bottom: 0px;}
-			#footer {height:80px; }
+			#footer-wrapper { position: relative; }
+			#footer { height: 80px; }
 			#sidebar { padding:4px 8px; margin: 8px 14px 8px 16px; width: 284px; float: left; position: relative;}
 			#content { width: 924px; padding: 10px; margin-left:auto; margin-right: auto; min-height: 300px;}
 			#mainbanner { width: 900px; margin-left: auto; margin-right: auto; }
