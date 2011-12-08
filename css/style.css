@@ -1,9 +1,10 @@
 			* { margin:0; padding:0; color: black;}
+			html, body { height: 100%; width: 100%; position: relative; }
 			a {text-decoration: none; cursor: pointer;}
 			ul, li {list-style: none;}
 			
 			.wrapper {width:100%;}
-			#thebgoverlay { height: auto; overflow: hidden;}
+			#thebgoverlay { height: 100% auto; overflow: hidden;}
 			.wrapped {margin-left:auto; margin-right:auto; width: 960px}
 			#header {height: 50px; padding-top:4px;}
 			
@@ -20,7 +21,7 @@
 			#readings-intro > h3 { float:left;}
 			#content { width: 924px; padding: 10px; margin-left:auto; margin-right: auto; min-height: 300px;}
 			#mainbanner { width: 900px; margin-left: auto; margin-right: auto; }
-			#container-wrapper { padding-bottom: 90px;}
+			#container-wrapper { padding-bottom: 90px; margin: 0px; height: 100%;}
 			body { background: url("../images/spring.jpg"); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 			#header > h1 { font-size: 52px; color: white; text-shadow: #000 0 0 4px; position: relative; bottom: 0px;}
 			input {width:80px;}
