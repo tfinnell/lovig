@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+		<script src="jquery-1.7.1.min.js" type="text/javascript"></script>
+		<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(window).load(function() {
+				$('#slider').nivoSlider({
+					effect: 'fade',
+					pauseTime: 3000 
+				});
+			});
+		</script>
+
+	</head>
+	<body>
+		<div id="slider" class="nivoSlider">
+			<img src="imgs/flower.jpg">
+			<img src="imgs/girl1.jpg">
+			<img src="imgs/pearls.jpg">
+			<img src="imgs/petals.jpg">
+			<img src="imgs/snow_sunset.jpg">
+		</div>
+	</body>
+</html>

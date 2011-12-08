@@ -1,0 +1,95 @@
+			* { margin:0; padding:0; color: black;}
+			a {text-decoration: none; cursor: pointer;}
+			ul, li {list-style: none;}
+			
+			.wrapper {width:100%;}
+			#thebgoverlay { height: auto; overflow: hidden;}
+			.wrapped {margin-left:auto; margin-right:auto; width: 960px}
+			#header {height: 50px; padding-top:4px;}
+			
+			#nav  { padding: 1px;}
+			#nav li{ font-size: 1.1em; font-weight: bold; font-family: sans-serif; border: thin solid transparent; border-radius: 7px; padding:1px;}
+			#nav li:hover {background: #DDD; border: thin solid #CCC; color: #222}
+			#nav li a { color: #000;}
+			#nav li a:hover { color: #222;}
+			#nav ul { margin: 0.3em;}
+			#nav > ul > li { display:inline-block;}
+			#footer-wrapper { position: fixed; bottom: 0px;}
+			#footer {height:80px; }
+			#sidebar { padding:4px; float: left; margin-left: 20px; width: 200px; overflow:}
+			#readings-intro > h3 { float:left;}
+			#content { width: 924px; padding: 10px; margin-left:auto; margin-right: auto; min-height: 300px;}
+			#mainbanner { width: 900px; margin-left: auto; margin-right: auto; }
+			#container-wrapper { padding-bottom: 90px;}
+			body { background: url("../images/spring.jpg"); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+			#header > h1 { font-size: 52px; color: white; text-shadow: #000 0 0 4px; position: relative; bottom: 0px;}
+			input {width:80px;}
+			#content h3 { border-bottom: thin dotted black;}
+			#content div { margin-top: 30px; }
+			#sidebar li {list-style-type:circle; margin-left: 20px;}
+			#content > div > div { width: 300px; margin: auto; display: inline-block; vertical-align: top;}
+			
+			/* curved */
+			#container, #content, #sidebar , .curved, #slider, #slider > *  {-moz-border-radius: 15px; border-radius: 15px;}
+			/* 80% alpha bg */
+			#nav-wrapper, #footer-wrapper { background: url("../images/white-80a.png") repeat;}
+			/* 60% alpha bg */
+			#content, #sidebar, #thebgoverlay { background: url("../images/white-60a.png") repeat;}
+			/* 42% alpha bg */
+			#container, { background: url("../images/white-42a.png") repeat;}
+
+			#container { margin-top: 12px; }
+			#content, #sidebar{ margin: 6px;}
+			#content {width: 924px;}	
+			#footer { text-align: center;}
+			#footer a { text-shadow: 0 0 1px #FFF; font-weight: bold; font-size: 12px;}
+			#footer ul { padding-top: 10px;}
+			#footer li { display: inline-block; }
+			#footer p{ padding-top:10px; font-size: 10px;}
+			
+			
+			/* Home page specific */
+			#slider { margin-left:auto; margin-right:auto; width: 900px; margin-top:0 !important; border: medium solid black;}
+			#home-content { margin-top:8px !important;}
+			#home-content div { width: 400px !important; margin-top: 0;}
+			#welcome h2 { margin-left: 40px;}
+			
+			/* Bio page specific */
+			
+			/* Services page specific */
+			#services div { padding-left: 120px;}
+			/* Readings page specific */
+			#readings-intro h3 { float: right; padding-right: 500px; }
+			#readings-intro p {clear: right;}
+			#readings-types {  clear: both; }
+			/* Bodywork page specific */
+			
+			/* Testimonials page specific */
+			.testimonial { border-top: thin dotted black; }
+			/*.testimonial p { width: 400px; }
+			.testimonial:nth-child(2n+1) p { margin-left: 300px; }*/
+			/* Contact page specific */
+			#contact-phone img { margin-right: 12px; margin-left: 12px;}
+			#contact-form form input { float:left; width: 150px;}
+			#contact-form form label, #contact-form form button { float:left; clear:left; width: 80px; margin-left: auto; margin-right: auto;}
+			#contact-form form textarea { width: 150px; }
+			#contacts { width: 500px;}
+			#contact .contact-type {width: 400px; float:left; clear:left; height: 100px;}
+			#contact .contact-type h4 { width: 160px; text-align: right;  margin-top: 30px;}
+			#contact .contact-type img { height: 80px; width: auto; float: left; clear: left;}
+			#contact-form {   padding: 5px;margin-right: 200px !important; float: right; margin-top: 30px !important; border: thin dotted black;}
+			#contact-form form {}
+			
+			
+			
+			
+			
+			/* 
+			  These values were inserted from our colorpicker project
+			Inserting custom colors from GET params 
+			* {color: rgba(0, 0, 0, 1);} body {background: url('../images/spring.jpg') top center no-repeat #FFF;} #thebgoverlay {background: rgba(255, 255, 255, 0);} #header > h1 {color: rgba(255, 255, 255, 1); text-shadow: rgba(0, 0, 0, 1) 0 0 2px; } a {color: rgba(0, 0, 0, 1);} #nav a {color: rgba(0, 0, 0, 1);} h2, h3, h4 {color: rgba(0, 0, 0, 1);} #container > div, #container {border: rgba(0, 0, 0, 1) thin solid;} #nav-wrapper, #footer-wrapper {border-top: rgba(0, 0, 0, 1) thin solid;} #nav-wrapper {border-bottom: rgba(0, 0, 0, 1) thin solid;} #content h3 {border-bottom: rgba(0, 0, 0, 1) thin dotted;} .testimonial {border-top: rgba(0, 0, 0, 1) thin dotted;} #nav-wrapper, #footer-wrapper, #container, #sidebar, #content {background: rgba(255, 255, 255, 0.76470588235294);}
+			*/
+			/* This is a reset fix left over from the colorpicker. */
+			body {background-size: cover; background-attachment: fixed;}
+	
+			
