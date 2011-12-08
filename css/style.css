@@ -9,8 +9,8 @@
 			#header {height: 50px; padding-top:4px;}
 			
 			#nav  { padding: 1px;}
-			#nav li{ font-size: 1.1em; font-weight: bold; font-family: sans-serif; border: thin solid transparent; border-radius: 7px; padding:1px;}
-			#nav li:hover {background: #DDD; border: thin solid #CCC; color: #222}
+			#nav li { font-size: 1.1em; font-weight: bold; font-family: sans-serif; border: thin solid transparent; border-radius: 7px; padding: 1px 4px;}
+			#nav li:hover {background: #DDD; border: thin solid #CCC; color: #222;}
 			#nav li a { color: #000;}
 			#nav li a:hover { color: #222;}
 			#nav ul { margin: 0.3em;}
