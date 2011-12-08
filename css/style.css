@@ -17,8 +17,7 @@
 			#nav > ul > li { display:inline-block;}
 			#footer-wrapper { position: fixed; bottom: 0px;}
 			#footer {height:80px; }
-			#sidebar { padding:4px; float: left; margin-left: 20px; width: 200px; overflow:}
-			#readings-intro > h3 { float:left;}
+			#sidebar { padding:4px 8px; margin: 8px 14px 8px 16px; width: 284px; float: left; position: relative;}
 			#content { width: 924px; padding: 10px; margin-left:auto; margin-right: auto; min-height: 300px;}
 			#mainbanner { width: 900px; margin-left: auto; margin-right: auto; }
 			#container-wrapper { padding-bottom: 90px; margin: 0px; height: 100%;}
@@ -40,7 +39,7 @@
 			#container, { background: url("../images/white-42a.png") repeat;}
 
 			#container { margin-top: 12px; }
-			#content, #sidebar{ margin: 6px;}
+			#content { margin: 6px; }
 			#content {width: 924px;}	
 			#footer { text-align: center;}
 			#footer a { text-shadow: 0 0 1px #FFF; font-weight: bold; font-size: 12px;}
@@ -60,8 +59,8 @@
 			/* Services page specific */
 			#services div { padding-left: 120px;}
 			/* Readings page specific */
-			#readings-intro h3 { float: right; padding-right: 500px; }
-			#readings-intro p {clear: right;}
+			#readings-intro h3 { float: left; width: 590px}
+			#readings-intro p {}
 			#readings-types {  clear: both; }
 			/* Bodywork page specific */
 			
