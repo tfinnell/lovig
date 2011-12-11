@@ -7,7 +7,7 @@
 			input {width:80px;}
 			body { background: url("../images/spring.jpg"); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 				
-		/* page centering with option for 100% width sections */
+		/* Page centering with option for 100% width sections */
 			.wrapper {width:100%;}
 			.wrapped {margin-left:auto; margin-right:auto; width: 960px}
 			
@@ -29,26 +29,19 @@
 			#sidebar { padding:4px 8px; margin: 8px 14px 8px 16px; width: 284px; float: left; position: relative;}
 			#content { width: 924px; padding: 10px; margin-left:auto; margin-right: auto; min-height: 300px;}
 			#mainbanner { width: 900px; margin-left: auto; margin-right: auto; }
-			
 			#content h3 { border-bottom: thin dotted black;}
 			#content div { margin-top: 30px; }
 			#sidebar li {list-style-type:circle; margin-left: 20px;}
 			#content > div > div { width: 300px; margin: auto; display: inline-block; vertical-align: top;}
-			
-			/* curved */
-			#container, #content, #sidebar , .curved, #slider, #slider > *  {-moz-border-radius: 15px; border-radius: 15px;}
-			/* 80% alpha bg */
-			#nav-wrapper, #footer-wrapper { background: url("../images/white-80a.png") repeat;}
-			/* 60% alpha bg */
-			#content, #sidebar, #thebgoverlay { background: url("../images/white-60a.png") repeat;}
-			/* 42% alpha bg */
-			#container, { background: url("../images/white-42a.png") repeat;}
-
 			#container { margin-top: 12px; }
 			#content { margin: 6px; }
 			#content {width: 924px;}	
 			
-			/* Footer  */
+
+
+			
+			
+		/* Footer  */
 			#footer { height: 80px; bottom:0px;}
 			#footer { text-align: center;}
 			#footer a { text-shadow: 0 0 1px #FFF; font-weight: bold; font-size: 12px;}
@@ -57,28 +50,30 @@
 			#footer p{ padding-top:10px; font-size: 10px;}
 			
 			
-			/* Home page specific */
+		/* Home page specific */
 			#slider { margin-left:auto; margin-right:auto; width: 900px; margin-top:0 !important; border: medium solid black;}
 			#home-content { margin-top:8px !important;}
 			#home-content div { width: 400px !important; margin-top: 0;}
 			#welcome h2 { margin-left: 40px;}
 			
-			/* Bio page specific */
+		/* Bio page specific */
 			
-			/* Services page specific */
+		/* Services page specific */
 			#services div { padding-left: 120px;}
-			/* Readings page specific */
+		
+		/* Readings page specific */
 			#readings-intro h3 { float: left; width: 590px}
 			#readings-intro p {}
 			#readings-types {  clear: both; }
-			/* Bodywork page specific */
+		
+		/* Bodywork page specific */
 			
-			/* Testimonials page specific */
+		/* Testimonials page specific */
 			.testimonial { border-top: thin dotted black; }
 			/*.testimonial p { width: 400px; }
 			.testimonial:nth-child(2n+1) p { margin-left: 300px; }*/
 			
-			/* Contact page specific */
+		/* Contact page specific */
 			#contact-phone img { margin-right: 12px; margin-left: 12px;}
 			#contact-form form input { float:left; width: 150px;}
 			#contact-form form label, #contact-form form button { float:left; clear:left; width: 80px; margin-left: auto; margin-right: auto;}
@@ -91,10 +86,18 @@
 			#contact-form form {}
 			
 			
-			/* Fixes */
 			
-			/* This is a reset fix left over from the colorpicker. */
-			body {background-size: cover; background-attachment: fixed;}
+		/* Classes and special cases */
+			/* curved */
+			#container, #content, #sidebar , .curved, #slider, #slider > *  {-moz-border-radius: 15px; border-radius: 15px;}
+			/* 80% alpha bg */
+			#nav-wrapper, #footer-wrapper { background: url("../images/white-80a.png") repeat;}
+			/* 60% alpha bg */
+			#content, #sidebar, #thebgoverlay { background: url("../images/white-60a.png") repeat;}
+			/* 42% alpha bg */
+			#container, { background: url("../images/white-42a.png") repeat;}
+		
+		/* Fixes */
 	
 			/* bgoverlay height bugfix */
 			#footer-wrapper { position: relative; }
