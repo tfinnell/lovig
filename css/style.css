@@ -23,7 +23,7 @@
 			#mainbanner { width: 900px; margin-left: auto; margin-right: auto; }
 			#container-wrapper { padding-bottom: 90px; margin: 0px; height: 100%;}
 			body { background: url("../images/spring.jpg"); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
-			#header > h1 { font-size: 52px; color: white; text-shadow: #000 0 0 4px; position: relative; bottom: 0px;}
+			#header h1 { font-size: 52px; color: white; text-shadow: #000 0 0 4px; position: relative; bottom: 0px;}
 			input {width:80px;}
 			#content h3 { border-bottom: thin dotted black;}
 			#content div { margin-top: 30px; }
