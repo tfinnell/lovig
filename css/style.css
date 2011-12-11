@@ -1,14 +1,22 @@
+		/* resets */
 			* { margin:0; padding:0; color: black;}
-			html { height: 100%; }
-			body { height: 100%; }
 			a {text-decoration: none; cursor: pointer;}
 			ul, li {list-style: none;}
 			
+		/* General styling */
+			input {width:80px;}
+			body { background: url("../images/spring.jpg"); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+				
+		/* page centering with option for 100% width sections */
 			.wrapper {width:100%;}
-			#thebgoverlay { height: 100%; min-height: 100%;}
 			.wrapped {margin-left:auto; margin-right:auto; width: 960px}
-			#header {height: 50px; padding-top:4px;}
 			
+		/* Header */
+			#header {height: 50px; padding-top:4px;}
+			#header h1 { font-size: 52px; color: white; text-shadow: #000 0 0 4px; position: relative; bottom: 0px;}
+			
+			
+		/* Nav */
 			#nav  { padding: 1px;}
 			#nav li { font-size: 1.1em; font-weight: bold; font-family: sans-serif; border: thin solid transparent; border-radius: 7px; padding: 1px 4px;}
 			#nav li:hover {background: #DDD; border: thin solid #CCC; color: #222;}
@@ -16,15 +24,12 @@
 			#nav li a:hover { color: #222;}
 			#nav ul { margin: 0.3em;}
 			#nav > ul > li { display:inline-block;}
-			#footer-wrapper { position: relative; }
-			#footer { height: 80px; }
+			
+		/* Content */
 			#sidebar { padding:4px 8px; margin: 8px 14px 8px 16px; width: 284px; float: left; position: relative;}
 			#content { width: 924px; padding: 10px; margin-left:auto; margin-right: auto; min-height: 300px;}
 			#mainbanner { width: 900px; margin-left: auto; margin-right: auto; }
-			#container-wrapper { padding-bottom: 90px; margin: 0px; height: 100%;}
-			body { background: url("../images/spring.jpg"); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
-			#header h1 { font-size: 52px; color: white; text-shadow: #000 0 0 4px; position: relative; bottom: 0px;}
-			input {width:80px;}
+			
 			#content h3 { border-bottom: thin dotted black;}
 			#content div { margin-top: 30px; }
 			#sidebar li {list-style-type:circle; margin-left: 20px;}
@@ -42,6 +47,9 @@
 			#container { margin-top: 12px; }
 			#content { margin: 6px; }
 			#content {width: 924px;}	
+			
+			/* Footer  */
+			#footer { height: 80px; bottom:0px;}
 			#footer { text-align: center;}
 			#footer a { text-shadow: 0 0 1px #FFF; font-weight: bold; font-size: 12px;}
 			#footer ul { padding-top: 10px;}
@@ -69,6 +77,7 @@
 			.testimonial { border-top: thin dotted black; }
 			/*.testimonial p { width: 400px; }
 			.testimonial:nth-child(2n+1) p { margin-left: 300px; }*/
+			
 			/* Contact page specific */
 			#contact-phone img { margin-right: 12px; margin-left: 12px;}
 			#contact-form form input { float:left; width: 150px;}
@@ -82,15 +91,13 @@
 			#contact-form form {}
 			
 			
+			/* Fixes */
 			
-			
-			
-			/* 
-			  These values were inserted from our colorpicker project
-			Inserting custom colors from GET params 
-			* {color: rgba(0, 0, 0, 1);} body {background: url('../images/spring.jpg') top center no-repeat #FFF;} #thebgoverlay {background: rgba(255, 255, 255, 0);} #header > h1 {color: rgba(255, 255, 255, 1); text-shadow: rgba(0, 0, 0, 1) 0 0 2px; } a {color: rgba(0, 0, 0, 1);} #nav a {color: rgba(0, 0, 0, 1);} h2, h3, h4 {color: rgba(0, 0, 0, 1);} #container > div, #container {border: rgba(0, 0, 0, 1) thin solid;} #nav-wrapper, #footer-wrapper {border-top: rgba(0, 0, 0, 1) thin solid;} #nav-wrapper {border-bottom: rgba(0, 0, 0, 1) thin solid;} #content h3 {border-bottom: rgba(0, 0, 0, 1) thin dotted;} .testimonial {border-top: rgba(0, 0, 0, 1) thin dotted;} #nav-wrapper, #footer-wrapper, #container, #sidebar, #content {background: rgba(255, 255, 255, 0.76470588235294);}
-			*/
 			/* This is a reset fix left over from the colorpicker. */
 			body {background-size: cover; background-attachment: fixed;}
 	
-			
+			/* bgoverlay height bugfix */
+			#footer-wrapper { position: relative; }
+			#thebgoverlay { height: 100%; min-height: 100%;}
+			html { height: 100%; }
+			body { height: 100%; }
