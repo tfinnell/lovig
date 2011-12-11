@@ -101,6 +101,5 @@
 	
 			/* bgoverlay height bugfix */
 			html { height: 100%; }
-			body { }
-			#thebgoverlay { min-height: 100%;}
-			#footer-wrapper { position: relative;}
+			#container-wrapper { padding-bottom: 80px; }
+			#footer-wrapper { position: fixed; bottom: 0; }
