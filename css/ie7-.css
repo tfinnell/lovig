@@ -1,1 +1,4 @@
 #footer-nav li, #nav li { display: inline; }
+body  { background-position: top center; background-repeat: no-repeat;}
+h1#thetitle {color: #000;}
+#thebgoverlay { height: auto;}
