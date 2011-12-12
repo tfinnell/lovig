@@ -5,7 +5,7 @@
 			
 		/* General styling */
 			input {width:80px;}
-			body { background: url("../images/spring-50.jpg"); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+			body { background: url("../images/spring-50.jpg") top center fixed no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 				
 		/* Page centering with option for 100% width sections */
 			.wrapper {width:100%;}
@@ -48,6 +48,7 @@
 			#footer ul { padding-top: 10px;}
 			#footer li { display: inline-block; }
 			#footer p{ padding-top:10px; font-size: 10px;}
+			#container-wrapper {padding-bottom: 90px;} /* this adds room at the bottom for the footer */
 			
 			
 		/* Home page specific */
