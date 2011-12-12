@@ -57,7 +57,9 @@
 			#welcome h2 { margin-left: 40px;}
 			
 		/* Bio page specific */
-			#portrait { height: 200px; float: right;}
+			#bio > * { float: left; }
+			#bio > p { width: 300px; padding: 20px;}
+			#bio img { border: thick solid black;}
 		/* Services page specific */
 			#services div { padding-left: 120px;}
 		
