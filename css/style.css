@@ -5,7 +5,7 @@
 			
 		/* General styling */
 			input {width:80px;}
-			body { background: url("../images/spring.jpg"); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+			body { background: url("../images/spring-50.jpg"); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 				
 		/* Page centering with option for 100% width sections */
 			.wrapper {width:100%;}
