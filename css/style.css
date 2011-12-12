@@ -9,7 +9,7 @@
 				
 		/* Page centering with option for 100% width sections */
 			.wrapper {width:100%;}
-			.wrapped {margin-left:auto; margin-right:auto; width: 960px}
+			.wrapped {margin-left:auto; margin-right:auto; max-width: 960px}
 			
 		/* Header */
 			#header {height: 50px; padding-top:4px;}
@@ -27,7 +27,7 @@
 			
 		/* Content */
 			#sidebar { padding:4px 8px; margin: 8px 14px 8px 16px; width: 284px; float: left; position: relative;}
-			#content { width: 924px; padding: 10px; margin-left:auto; margin-right: auto; min-height: 300px;}
+			#content { max-width: 924px; padding: 10px; margin-left:auto; margin-right: auto; min-height: 300px;}
 			#mainbanner { width: 900px; margin-left: auto; margin-right: auto; }
 			#content h3 { border-bottom: thin dotted black;}
 			#content div { margin-top: 30px; }
@@ -35,7 +35,12 @@
 			#content > div > div { width: 300px; margin: auto; display: inline-block; vertical-align: top;}
 			#container { margin-top: 12px; }
 			#content { margin: 6px; }
-			#content {width: 924px;}	
+			#sidebar > *{ margin-left: 55px;}
+			#pricing { border:thin dotted black; width: 120px; margin-top: 24px;}
+			#pricing tr td:first-child { text-align: right;}
+			#pricing tr td:last-child { padding-left: 16px;}
+			
+			
 			
 
 
@@ -61,6 +66,7 @@
 			#bio > * { float: left; }
 			#bio > p { width: 300px; padding: 20px;}
 			#bio img { border: thick solid black;}
+			
 		/* Services page specific */
 			#services div { padding-left: 120px;}
 		
@@ -70,6 +76,8 @@
 			#readings-types {  clear: both; }
 		
 		/* Bodywork page specific */
+			#bodywork-caveats h3 { float: left; width: 590px}
+			#bodywork-types {  clear: both; }
 			
 		/* Testimonials page specific */
 			.testimonial { border-top: thin dotted black; }
