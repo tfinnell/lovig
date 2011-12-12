@@ -57,7 +57,7 @@
 			#welcome h2 { margin-left: 40px;}
 			
 		/* Bio page specific */
-			
+			#portrait { height: 200px; float: right;}
 		/* Services page specific */
 			#services div { padding-left: 120px;}
 		
@@ -93,9 +93,9 @@
 			/* 80% alpha bg */
 			#nav-wrapper, #footer-wrapper { background: url("../images/white-80a.png") repeat;}
 			/* 60% alpha bg */
-			#content, #sidebar, #thebgoverlay { background: url("../images/white-60a.png") repeat;}
+			#content, #sidebar { background: url("../images/white-60a.png") repeat;}
 			/* 42% alpha bg */
-			#container, { background: url("../images/white-42a.png") repeat;}
+			#container { background: url("../images/white-42a.png") repeat;}
 		
 		/* Fixes */
 	
