@@ -90,7 +90,7 @@
 			#contact-form form label, #contact-form form button { float:left; clear:left; width: 80px; margin-left: auto; margin-right: auto;}
 			#contact-form form textarea { width: 150px; }
 			#contacts { width: 500px;}
-			#contact .contact-type {width: 400px; float:left; clear:left; height: 100px;}
+			#contact .contact-type {width: 300px; float:left; clear:left; height: 100px;}
 			#contact .contact-type h4 { width: 160px; text-align: right;  margin-top: 30px;}
 			#contact .contact-type img { height: 80px; width: auto; float: left; clear: left;}
 			#contact-form {   padding: 5px;margin-right: 200px !important; float: right; margin-top: 30px !important; border: thin dotted black;}
