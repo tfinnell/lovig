@@ -5,7 +5,9 @@
 			
 		/* General styling */
 			input {width:80px;}
+
 			body { background: url("../images/spring-50.jpg") top center fixed no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+
 				
 		/* Page centering with option for 100% width sections */
 			.wrapper {width:100%;}
@@ -115,6 +117,6 @@
 		/* Fixes */
 	
 			/* bgoverlay height bugfix */
-			html { height: 100%; }
-			#container-wrapper { margin-bottom: 80px; }
-			#footer-wrapper { position: fixed; bottom: 0; }
+			#footer-wrapper { position: fixed; bottom:0px; }
+			#thebgoverlay { height: 100%; }
+
