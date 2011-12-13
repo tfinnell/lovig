@@ -107,6 +107,9 @@
 			#content, #sidebar { background: url("../images/white-60a.png") repeat;}
 			/* 42% alpha bg */
 			#container { background: url("../images/white-42a.png") repeat;}
+			/* current page in nav */
+			#nav .current-page { border:thin solid #CCC; }
+		
 		
 		/* Fixes */
 	
