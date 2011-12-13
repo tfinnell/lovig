@@ -1,6 +1,15 @@
-#footer-nav li, #nav li { display: inline; }
+#content div h3 {clear: both;}
+#footer-nav li, #nav li, #contact div, #services div, #readings-types div, #readings-expectations div, #readings-preparation div, #readings-caveats div, #bodywork-types div, #bodywork-disclaimer div { float: left; }
 body  { background-position: top center; background-repeat: no-repeat;}
 h1#thetitle {color: #000;}
 #thebgoverlay { height: auto;}
 .wrapped {width: 960px;}
 #content {width: 924px;}
+#home-content div div { margin: 0px; padding: 0px;}
+a img { border: 0;}
+#pricing { width: 200px; margin-left: 30px;}
+#pricing td { padding:0 0 0 10px;}
+#bodywork-caveats p , #readings-intro p{ clear:both;}
+#bodywork-caveats h3 , #readings-intro h3{ width: 100%;}
+#nav ul {height: 24px;}
+#sidebar { border: thin solid #CCC;}

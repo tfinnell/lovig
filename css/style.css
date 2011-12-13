@@ -36,9 +36,10 @@
 			#container { margin-top: 12px; }
 			#content { margin: 6px; }
 			#sidebar > *{ margin-left: 55px;}
-			#pricing { border:thin dotted black; width: 120px; margin-top: 24px;}
+			#pricing { border: none; width: 120px; margin-top: 24px;}
 			#pricing tr td:first-child { text-align: right;}
 			#pricing tr td:last-child { padding-left: 16px;}
+			#sidebar { box-shadow: rgba(0, 0, 0, 0.15) 0 0 4px;}
 			
 			
 			
@@ -71,7 +72,7 @@
 			#services div { padding-left: 120px;}
 		
 		/* Readings page specific */
-			#readings-intro h3 { float: left; width: 590px}
+			#readings-intro h3 { float: left; width: 590px;}
 			#readings-intro p {}
 			#readings-types {  clear: both; }
 		
